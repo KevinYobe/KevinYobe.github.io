@@ -1,1 +1,103 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Yobe | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kevin Yobe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex justify-content-center align-items-center text-center">
+        <div>
+            <h1 class="display-4">Hi, I'm Kevin Yobe</h1>
+            <p class="lead">Java Developer | Test Automation Engineer</p>
+            <a href="#projects" class="btn btn-outline-light mt-4">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section container text-center">
+        <h2>whoami</h2>
+        <p>Hey there, I am a Java Developer and Test Automation Engineer with over 4 years of experience in quality assurance, test automation, and software development.
+		I am </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section container text-center">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4 project-card">
+                <div class="card">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Vault</h5>
+                        <p class="card-text">A robust test automation framework for web and mobile apps using Selenium and Appium.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 project-card">
+                <div class="card">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">playground</h5>
+                        <p class="card-text">A web-based application to streamline transaction reversals for financial services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 project-card">
+                <div class="card">
+                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Internet Banking Module</h5>
+                        <p class="card-text">Developed a secure authentication module for an internet banking platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section container text-center">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-3">Java</div>
+            <div class="col-md-3">Selenium</div>
+            <div class="col-md-3">Spring Boot</div>
+            <div class="col-md-3">API Testing</div>
+            <div class="col-md-3">JMeter</div>
+            <div class="col-md-3">Cucumber</div>
+            <div class="col-md-3">Git</div>
+            <div class="col-md-3">AWS</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section container text-center">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:kev.yobe@gmail.com">kev.yobe@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kevin-yobe" target="_blank">Kevin Yobe</a></p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
